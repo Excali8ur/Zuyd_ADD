@@ -16,6 +16,8 @@ namespace Robot_Proj
         {
             InitializeComponent();
             //Hoi
+            // ruben ziek?
+
         }
     }
 }
