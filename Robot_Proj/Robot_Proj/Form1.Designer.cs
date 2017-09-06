@@ -31,6 +31,8 @@
             this.btn_left = new System.Windows.Forms.Button();
             this.btn_rust = new System.Windows.Forms.Button();
             this.btn_right = new System.Windows.Forms.Button();
+            this.lbl_robot = new System.Windows.Forms.Label();
+            this.lbl_positie = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_left
@@ -63,17 +65,38 @@
             this.btn_right.UseVisualStyleBackColor = true;
             this.btn_right.Click += new System.EventHandler(this.btn_right_Click);
             // 
+            // lbl_robot
+            // 
+            this.lbl_robot.AutoSize = true;
+            this.lbl_robot.Location = new System.Drawing.Point(18, 38);
+            this.lbl_robot.Name = "lbl_robot";
+            this.lbl_robot.Size = new System.Drawing.Size(71, 13);
+            this.lbl_robot.TabIndex = 3;
+            this.lbl_robot.Text = "Positie robot: ";
+            // 
+            // lbl_positie
+            // 
+            this.lbl_positie.AutoSize = true;
+            this.lbl_positie.Location = new System.Drawing.Point(95, 38);
+            this.lbl_positie.Name = "lbl_positie";
+            this.lbl_positie.Size = new System.Drawing.Size(10, 13);
+            this.lbl_positie.TabIndex = 4;
+            this.lbl_positie.Text = ".";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lbl_positie);
+            this.Controls.Add(this.lbl_robot);
             this.Controls.Add(this.btn_right);
             this.Controls.Add(this.btn_rust);
             this.Controls.Add(this.btn_left);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -82,6 +105,8 @@
         private System.Windows.Forms.Button btn_left;
         private System.Windows.Forms.Button btn_rust;
         private System.Windows.Forms.Button btn_right;
+        private System.Windows.Forms.Label lbl_robot;
+        private System.Windows.Forms.Label lbl_positie;
     }
 }
 

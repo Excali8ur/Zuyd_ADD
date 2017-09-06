@@ -20,17 +20,17 @@ namespace Robot_Proj
 
         private void btn_left_Click(object sender, EventArgs e)
         {
-
+            //robot positie -1
         }
 
         private void btn_rust_Click(object sender, EventArgs e)
         {
-
+            //robot positie terug naar 0?
         }
 
         private void btn_right_Click(object sender, EventArgs e)
         {
-
+            //robot positie +1
         }
     }
 }
