@@ -25,10 +25,12 @@ namespace Week_1___Robot
         public void zetEenStapRechts()
         {
             plaats++;
-        }        
+        }
+
 
         public void GaNaar(int bestemming)
         {
+            plaats = bestemming;
         }
 
         public int HaalRichtingOP()
