@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Robot_Proj
 {
-    class Robot
+    public class Robot
     {
 
     }
