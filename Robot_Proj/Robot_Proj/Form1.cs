@@ -15,8 +15,7 @@ namespace Robot_Proj
         public Form1()
         {
             InitializeComponent();
-            //Hoi
-            //Testing
+
         }
 
         private void btn_left_Click(object sender, EventArgs e)
