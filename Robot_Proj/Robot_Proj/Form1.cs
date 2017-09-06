@@ -19,6 +19,22 @@ namespace Robot_Proj
             // ruben ziek?
 
             //Testing
+
+        }
+
+        private void btn_left_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_rust_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_right_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
