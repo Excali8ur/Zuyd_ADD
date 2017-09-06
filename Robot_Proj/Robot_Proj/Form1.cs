@@ -15,8 +15,7 @@ namespace Robot_Proj
         public Form1()
         {
             InitializeComponent();
-            //Hoi
-            //Testing
+
         }
     }
 }
